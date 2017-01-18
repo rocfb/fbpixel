@@ -1,6 +1,4 @@
 <html>
-
-
 <body>
   <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -13,6 +11,5 @@ document,'script','https://connect.facebook.net/en_US/fbevents.js');
 src="https://www.facebook.com/tr?id=197419453787690&ev=PageView&noscript=1"
 /></noscript>
 <button type="button" onclick="fbq('init', '197419453787690');fbq('track', 'InitiateCheckout');">Click Me!</button>
- 
 </body>
 </html>
