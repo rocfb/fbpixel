@@ -8,12 +8,11 @@ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '197419453787690'); // Insert your pixel ID here.
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=197419453787690&ev=PageView&noscript=1"
 /></noscript>
-<button type="button" onclick="fbq('track', 'InitiateCheckout');">Click Me!</button>
+<button type="button" onclick="fbq('init', '197419453787690');fbq('track', 'InitiateCheckout');">Click Me!</button>
  
 </body>
 </html>
