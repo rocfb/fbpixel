@@ -8,7 +8,7 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=197419453787690&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=197419453787690&ev=InitiateCheckout&noscript=1"
 /></noscript>
 <button type="button" onclick="fbq('init', '197419453787690');fbq('track', 'InitiateCheckout');">Click Me!</button>
 </body>
